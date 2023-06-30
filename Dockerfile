@@ -1,4 +1,4 @@
-FROM node
+FROM Node
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
